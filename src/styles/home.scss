@@ -1,0 +1,49 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+
+
+// colors
+.red-light{
+    background-color: rgb(243, 15, 15);
+}
+.green-light{
+    background-color: rgb(11, 199, 11);
+}
+.yellow-light{
+    background-color: rgb(255, 255, 6);
+}
+.lights-box{
+    background-color: rgb(41, 41, 41);
+    height: 220px;
+    width: 80px;
+    padding: 10px;
+}
+.light{
+    height: 60px;
+    width: 60px;
+    margin-right: 3px;
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+}
+.stick{
+ background-color: rgb(41, 41, 41);
+    height: 180px;
+    width: 10px;
+     margin-left: auto;
+  margin-right: auto;
+
+}
+.traffic-light{
+     margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.glow{
+    box-shadow: 0px 0px 10px 4px rgb(241, 241, 19);
+}
+
+.container{background-color: rgb(154, 154, 223);
+    height: 440px;
+padding-top: 4%;
+}
