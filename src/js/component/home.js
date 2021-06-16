@@ -5,8 +5,8 @@ import "../../styles/home.scss";
 export function Home() {
 	const [selectedLight, setSelectedLight] = useState("red-light");
 	return (
-		<div className="container col-4  mt-1">
-			<div className="traffic-light   col-4 ">
+		<div className="container col-md-4 col-sm-8  mt-1">
+			<div className="traffic-light   col-md-4 col-sm-12 ">
 				<div className="lights-box ">
 					<div
 						onClick={() => setSelectedLight("red-light")}
